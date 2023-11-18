@@ -1,0 +1,44 @@
+<form method="POST" action="{{ url_for('createQuiz') }}">
+  <input type="text" class="input-style quizName" name="quiz_name" placeholder="Enter Quiz Name">
+  <!-- You can duplicate the following div for as many questions as you need -->
+  <div class="question-block">
+    <input type="text" class="input-style creaQues" name="question" placeholder="Enter Question 1">
+    <input type="text" class="input-style creaCorrectans" name="correct_answer" placeholder="Enter Correct Answer">
+    <input type="text" class="input-style incorAns1" name="incorrect_answer_1" placeholder="Enter Incorrect Answer 1">
+    <input type="text" class="input-style incorAns2" name="incorrect_answer_2" placeholder="Enter Incorrect Answer 2">
+    <input type="text" class="input-style incorAns3" name="incorrect_answer_3" placeholder="Enter Incorrect Answer 3">
+  </div>
+  <div class="question-block">
+    <input type="text" class="input-style creaQues" name="question" placeholder="Enter Question 2">
+    <input type="text" class="input-style creaCorrectans" name="correct_answer" placeholder="Enter Correct Answer">
+    <input type="text" class="input-style incorAns1" name="incorrect_answer_1" placeholder="Enter Incorrect Answer 1">
+    <input type="text" class="input-style incorAns2" name="incorrect_answer_2" placeholder="Enter Incorrect Answer 2">
+    <input type="text" class="input-style incorAns3" name="incorrect_answer_3" placeholder="Enter Incorrect Answer 3">
+  </div>
+  <div class="question-block">
+    <input type="text" class="input-style creaQues" name="question" placeholder="Enter Question 3">
+    <input type="text" class="input-style creaCorrectans" name="correct_answer" placeholder="Enter Correct Answer">
+    <input type="text" class="input-style incorAns1" name="incorrect_answer_1" placeholder="Enter Incorrect Answer 1">
+    <input type="text" class="input-style incorAns2" name="incorrect_answer_2" placeholder="Enter Incorrect Answer 2">
+    <input type="text" class="input-style incorAns3" name="incorrect_answer_3" placeholder="Enter Incorrect Answer 3">
+  </div>
+  <div class="question-block">
+    <input type="text" class="input-style creaQues" name="question" placeholder="Enter Question 4">
+    <input type="text" class="input-style creaCorrectans" name="correct_answer" placeholder="Enter Correct Answer">
+    <input type="text" class="input-style incorAns1" name="incorrect_answer_1" placeholder="Enter Incorrect Answer 1">
+    <input type="text" class="input-style incorAns2" name="incorrect_answer_2" placeholder="Enter Incorrect Answer 2">
+    <input type="text" class="input-style incorAns3" name="incorrect_answer_3" placeholder="Enter Incorrect Answer 3">
+  </div>
+  <div class="question-block">
+    <input type="text" class="input-style creaQues" name="question" placeholder="Enter Question 5">
+    <input type="text" class="input-style creaCorrectans" name="correct_answer" placeholder="Enter Correct Answer">
+    <input type="text" class="input-style incorAns1" name="incorrect_answer_1" placeholder="Enter Incorrect Answer 1">
+    <input type="text" class="input-style incorAns2" name="incorrect_answer_2" placeholder="Enter Incorrect Answer 2">
+    <input type="text" class="input-style incorAns3" name="incorrect_answer_3" placeholder="Enter Incorrect Answer 3">
+  </div>
+  <!-- Add more question blocks as needed -->
+  <button id="submitBtn" type="submit" class="SubmitBtn">Create Quiz</button>
+</form>
+
+<script src="{{ url_for('static', filename='scripts/indexscript.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">

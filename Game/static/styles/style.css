@@ -1,0 +1,722 @@
+h1, h2,h3,h4,h5,h6,p {
+  letter-spacing:3px;
+  font-family: "Chewy";
+  color: white;
+
+}
+h4 {
+  font-family: "Chewy";
+  font-size: 40px;
+}
+
+
+
+
+#container2 {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+#ProgBTN {
+  font-family: "Chewy";
+  font-size: 1rem;
+  background-color: #08001b;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+  margin-top: 2rem;
+margin: 3rem;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+/* Minor updates */
+.timer-container {
+  width: 100%; /* Full width of the container */
+  background-color: #08001b; /* Background of the timer container */
+  border: 1px solid #000; /* Optional: adds a border around the container */
+  height: 20px; /* Set the height of the container */
+  position: relative; /* Position relative to place the bar inside it */
+}
+
+.timer-bar {
+  width: 100%; /* Full initial width of the timer bar */
+  height: 100%; /* Full height of the container */
+  background-color: white; /* Color of the timer bar */
+  position: absolute; /* Absolute position within the container */
+  right: 0; /* Set the right side as the starting point */
+  transition: width 1s linear; /* Smooth transition for the width */
+}
+
+.answer {
+  font-family: "Caprasimo";
+  width: 45%;
+  height: 130px;
+  border: 1px solid white;
+  background-color: #08001b;
+  color: white;
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 110px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.answer:hover {
+  transform: translateY(-5px);
+  background-color: #390d4e;
+}
+
+h2 {
+  font-family: "Chewy";
+  font-size: 1.7rem;
+  margin-bottom: 60px;
+}
+
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.left {
+  order: 1;
+}
+
+.right {
+  order: 2;
+}
+
+/* ///Container 1 /// */
+
+#container1 {
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Cherry Bomb One";
+  text-align: center;
+  font-size: 11em;
+  margin: 0.5em 0;
+  color: white;
+}
+
+#name-entry {
+  text-align: center;
+  margin: 3em auto;
+}
+
+#name-text {
+  font-family: "Carter One";
+  color: white;
+}
+
+#name-input {
+  font-family: "Carter One";
+  color: white;
+  font-size: 1.2em;
+  background-color: #08001b;
+  border: 1px solid white;
+  padding: 0.5em;
+  margin: 0 1em;
+}
+
+/* Container 3 */
+
+body {
+  background: rgb(9, 0, 29);
+  background: radial-gradient(
+    circle,
+    rgba(9, 0, 29, 1) 0%,
+    rgba(57, 13, 78, 1) 100%
+  );
+  margin: 0;
+  color: white;
+  border-color: #ffffff;
+}
+
+#RetBTN {
+  font-family: "Chewy";
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #08001b;
+  border-radius: 5px;
+  border: 5px solid #08001b;
+  color: white;
+}
+
+#container3 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 10%;
+  text-align: center;
+  background-color: #08001b;
+  border-radius: 8px;
+  border-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#container3 h3 {
+  color: white;
+  border:solid white ;
+  margin-bottom: 20px;
+}
+
+.box {
+  padding: 20px;
+  background-color: #08001b;
+  border-radius: 4px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.ends {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+form#saveScore {
+  margin-top: 20px;
+}
+
+form#saveScore label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+}
+
+form#saveScore input[type="text"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color:#08001b;
+  border-radius: 4px solid white;
+}
+
+form#saveScore button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #08001b;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form#saveScore button:hover {
+  background-color: #08001b;
+}
+
+
+
+#IntrO {
+  background: rgb(9, 0, 29);
+  background: radial-gradient(
+    circle,
+    rgba(9, 0, 29, 1) 0%,
+    rgba(57, 13, 78, 1) 100%
+  );
+}
+
+#gamemodeQues {
+  font-family: "Chewy";
+  font-size: 45px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+#CreatorUi{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+#CreatorBackBTN {
+  font-family: "Chewy";
+  margin: 20px;
+  margin-bottom: 5px;
+  padding: 15px;
+  background-color: #08001b;
+  border-radius: 10px; 
+  border: 3px solid white;
+  color: white;
+}
+#StartBTN{
+  font-family: "Chewy";
+  font-size: 20px;
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #08001b;
+  border-radius: 5px;
+  border: 5px solid #08001b;
+  color: white;
+}
+
+.game-mode-btn-1:hover::before,
+.game-mode-btn-2:hover::before,
+.game-mode-btn-3:hover::before {
+  content: attr(data-hover-text); /* Using attribute for text */
+  position: absolute;
+  bottom: 150px; /* Position text at the bottom inside the button */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Adjust horizontal centering */
+  font-family: "Caprasimo";
+  color: white; /* Set text color */
+  display: block;
+  z-index: 2; /* Ensure text is above other elements */
+  white-space: nowrap;
+  font-size: 14px; /* Adjust the font size as needed */
+  text-align: center; /* Center text horizontally */
+}
+
+
+  /* Your existing button styles */
+
+.game-mode-btn-1 {
+  position: relative;
+  margin-top: 100px; /* Better spacing from the top of the viewport */
+  font-family: "Chewy";
+  display: block;
+  background-color: #08001b;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 30%; /* Each button takes up 30% of the container's width */
+  height: 450px;
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box; /* Padding and border included in the width and height */
+}
+
+.game-mode-btn-2 {
+  position: relative;
+  margin-top: 100px; /* Better spacing from the top of the viewport */
+  font-family: "Chewy";
+  display: block;
+  background-color: #08001b;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 30%; /* Each button takes up 30% of the container's width */
+  height: 450px;
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box; /* Padding and border included in the width and height */
+}
+
+.game-mode-btn-3 {
+  position: relative;
+  margin-top: 100px; /* Better spacing from the top of the viewport */
+  font-family: "Chewy";
+  display: block;
+  background-color: #08001b;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 30%; /* Each button takes up 30% of the container's width */
+  height: 450px;
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  box-sizing: border-box; /* Padding and border included in the width and height */
+}
+.Intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap; /* Wraps buttons to the next line on small screens */
+}
+
+.game-mode-btn-1:hover {
+  border: solid white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.game-mode-btn-1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+  border: solid white;
+}
+
+.game-mode-btn-1:hover::after {
+  opacity: 1; /* Makes pseudo-element visible on hover */
+}
+
+.game-mode-btn-2:hover {
+  border: solid white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.game-mode-btn-2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+  border: solid white;
+}
+
+.game-mode-btn-2:hover::after {
+  opacity: 1; /* Makes pseudo-element visible on hover */
+}
+
+.game-mode-btn-3:hover {
+  border: solid white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.game-mode-btn-3::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+  border: solid white;
+}
+
+.game-mode-btn-3:hover::after {
+  opacity: 1; /* Makes pseudo-element visible on hover */
+}
+
+
+
+#CreatorBackBTN:hover {
+  transform: translateY(-5px);
+}
+
+#CreateQuiz:hover {
+  transform: translateY(-1px);
+}
+
+#StartBTN:hover {
+  transform: translateY(-1px);
+}
+
+#PlayGame:hover {
+  transform: translateY(-1px);
+}
+
+
+
+#rules {
+  background: rgb(9, 0, 29);
+  background: radial-gradient(
+    circle,
+    rgba(9, 0, 29, 1) 0%,
+    rgba(57, 13, 78, 1) 100%
+  );
+}
+
+.BoxRules {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  height: 400px;
+  background-color: #08001b;
+  border-radius: 10px;
+  border: 1px solid white;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin: 7rem auto;
+}
+
+.info {
+  font-family: "Chewy";
+  display: flex;
+  padding: 5px;
+}
+
+#CreatorUi {
+  background: rgb(9, 0, 29);
+  background: radial-gradient(
+    circle,
+    rgba(9, 0, 29, 1) 0%,
+    rgba(57, 13, 78, 1) 100%
+  );
+}
+
+#creator-name {
+  font-family: "Chewy";
+  color: white;
+  font-size: 1.2em;
+  background-color: #08001b;
+  border: 1px solid white;
+  padding: 0.5em;
+  margin: 20px;
+}
+
+h11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Chewy";
+  font-size: 40px;
+  margin-top: 200px;
+}
+
+
+
+
+
+
+.question-block {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#submitBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Chewy";
+  margin: 20px;
+  margin-bottom: 5px;
+  padding: 15px;
+  background-color: #08001b;
+  border-radius: 10px; 
+  border: 2px solid white;
+  color: white;
+}
+
+
+#submitBtn {
+  display: block; /* Make the button a block-level element */
+  margin: 20px auto; /* Top and bottom margins + auto margin for left and right */
+  padding: 10px 20px; /* Optional: for better sizing of the button */
+  font-size: 1rem; /* Optional: adjust the font size as needed */
+  cursor: pointer;
+  /* Add any additional styling for the button here */
+}
+
+.input-style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Chewy";
+  width: 700px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #08001b;
+  color: white;
+  margin: 10px auto;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.question-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+::placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.creaQues{
+  align-items: center;
+  font-family: "Chewy";
+  width: 60%;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #08001b;
+  color: white;
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 110px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.creaCorrectans{
+  font-family: "Caprasimo";
+  width: 50%;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #08001b;
+  color: white;
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 110px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.incorAns1{
+  font-family: "Caprasimo";
+  width: 50%;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #08001b;
+  color: white;
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 110px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.incorAns2{
+  font-family: "Caprasimo";
+  width: 50%;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #08001b;
+  color: white;
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 110px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.incorAns3{
+  font-family: "Caprasimo";
+  width: 50%;
+  height: 50px;
+  border: 1px solid white;
+  background-color: #08001b;
+  color: white;
+  margin: 10px;
+  font-size: 1rem;
+  line-height: 110px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#quizForm {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#quizForm div {
+  background-color: #08001b;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#quizForm h3 {
+  margin-bottom: 10px;
+}
+
+#quizForm label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#quizForm button {
+  background-color: #08001b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#quizForm button:hover {
+  background-color: #08001b;
+}
+
+#name-confi{
+  font-family: "Carter One";
+  color: white;
+  font-size: 2em;
+  padding: 0.5em;
+  margin: 0 1em;
+}
+
+#name-inputConfi{
+  font-family: "Carter One";
+  text-align: center;
+  color: white;
+  font-size: 1.2em;
+  background-color: #08001b;
+  border: 1px solid white;
+  padding: 0.5em;
+  margin: 0 1em;
+
+}
+
+#name-confir{
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+
+}
